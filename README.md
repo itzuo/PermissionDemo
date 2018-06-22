@@ -1,8 +1,12 @@
+
 ## 说明
 使用AOP来实现动态权限申请
 
+不仅可以在Activity中使用，还可以在Fragment、Service中使用
 ## 使用
+1、在app的build.gradle中引用 `apply plugin: 'android-aspectjx'`
 
+2、在代码中
 ```
 public class MainActivity extends AppCompatActivity {
 
